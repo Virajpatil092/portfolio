@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Viraj Patil</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Viraj Patil</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Viraj</h1>
+        <p class="typewriter" >A web developer and a Tech Enthusiast</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+           <h1 class="about-heading">About Me</h1>
+          </div> 
+          <img src="https://media.licdn.com/dms/image/D4D03AQFoYDiwS_0DMQ/profile-displayphoto-shrink_800_800/0/1679587919453?e=2147483647&v=beta&t=AgaPNUr7KysgtoJeK00-ldyOHAgf08maXzM5jDDKMwQ" alt="image" />
+          <p>
+            I am 20 year old, CSE student studying at Walchand College of Engineering sangli.
+            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+            things; the more, the better.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>JAVA Core</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>WEB DEVELOPMENT</span>
+                  </div>
+                  <div class="progress-line"><span class="html"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>PYTHON</span>
+                    </div>
+                    <div class="progress-line"><span class="html"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="css"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>GAME DEVELOPMENT</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Flappy_Bird_icon.png/220px-Flappy_Bird_icon.png">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Flappy Bird</h2>
+            <p>Build Using C# and .NET</p>
+            <button><a href="https://github.com/Virajpatil092/Flappy-Bird" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        
+        <div class="proj-1">
+          <img src="https://universitykart.b-cdn.net//Content/upload/admin/2j30iqyt.tx0.png">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <h2>Management App</h2>
+            <p>Build Using MERN</p>
+            <button><a href="https://github.com/Virajpatil092/walchand_management" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> viraj05082003patil@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/viraj-patil-863b32255/" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+        <a href="https://github.com/Virajpatil092" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://www.instagram.com/virajpatil092/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 550) {
+          $('.navbar').addClass('solid');
+          $('.back-to-top').addClass('visible');
+        } else {
+          $('.navbar').removeClass('solid');
+          $('.back-to-top').removeClass('visible');
+        }
+
+      });
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("a").on('click', function (event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    
+  </script>
+</body>
+
+</html>
